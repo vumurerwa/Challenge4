@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+html body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.cards-container{
+    width: 90%;
+    background-color: red;
+    margin: auto;
+    border-radius: 10px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+main{
+    display: flex;
+   
+}
+.cards-container .card{
+    width: 100%;
+    height: 400px;
+    
+}
+#card-1{
+    background-color: hsl(31, 77%, 52%);
+}
+#card-2{
+    background-color: hsl(184, 100%, 22%);
+}
+#card-3{
+    background-color: hsl(179, 100%, 13%);
+}
+img{
+    margin-left: 10%;
+    margin-top: 40px;
+}
+h1{
+    margin-left: 10%; 
+    color: white; 
+    font-family: 'Big Shoulders Display', sans-serif;
+}
+p{
+    margin-left: 10%;
+    margin-right: 20%; 
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+}
+button{
+    margin-left: 10%;
+    margin-top: 10px;
+    padding: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 40px;
+    border: none;
+}
+#one{
+    text-decoration: none;
+    color:  hsl(31, 77%, 52%);
+}
+#two{
+    text-decoration: none;
+    color: hsl(184, 100%, 22%);
+}
+#three{
+    text-decoration: none;
+    color:  hsl(179, 100%, 13%);
+}
+@media screen and (min-width:733px) {
+    .cards-container{
+        flex-direction: row;
+    }
+    .cards-container .card{
+        height: 700px;
+        
+    }
+    img{
+        height: 70px;
+        margin-left: 15%;
+        margin-top: 60px;
+    }
+    h1{
+        margin-left: 15%;
+        margin-top: 50px;
+        font-size: 40px;  
+    }
+    p{
+        margin-left: 15%;
+        margin-top: 50px;
+        font-size: 25px;  
+        margin-right: 15%;
+    }
+    button{
+        margin-left: 15%;
+        padding: 20px;
+        margin-top: 70px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    a{
+        font-size: 25px;  
+    }
+}
